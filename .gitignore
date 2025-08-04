@@ -1,0 +1,16 @@
+# Ignore virtual environment
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Environment files
+.python-version
+
+# Logs, results
+run_results.jsonl
+
+# OS files
+.DS_Store

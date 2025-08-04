@@ -1,0 +1,10 @@
+# math_eval.yaml
+math_eval:
+  id: math_eval.v1
+  description: "A simple eval to check basic arithmetic."
+  metrics: [accuracy]
+
+math_eval.v1:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: simple_math.jsonl
